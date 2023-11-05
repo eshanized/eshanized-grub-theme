@@ -82,8 +82,6 @@ def eshanized_install():
     # installer script
     print("\n   INSTALLER")
     THEME = "eshanized"
-
-    # debian | arch
     if os.path.exists("/boot/grub/"):
         GRUB_THEMES_DIR = "/boot/grub/themes/"
         GRUB_UPDATE_CMD = "grub-mkconfig -o /boot/grub/grub.cfg"
